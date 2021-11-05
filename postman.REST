@@ -1,0 +1,19 @@
+GET  http://localhost:3000/api/login/tampils
+auth-token : eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiaGVuZHJhIiwiYWNjZXMiOiJhZG1pbiIsImlhdCI6MTYzNjA0MTU3OSwiZXhwIjoxNjM2MDQyMTc5fQ.EjnNz-XE10LSoL-tqTuuHssIIc5R8l6be5pFNLtvmY9QcgIuO7hWcZWsI4_9ukRR
+
+###
+GET  http://localhost:3000/api/login/auth
+
+
+###
+POST http://localhost:3000/api/login/tambah
+auth-token :isitoken
+Content-Type: application/json
+
+{
+"grpid":"title",
+"empid":"hn",
+"codeid":"staff",
+"startdt":"2021-06-02",
+"notes":"hendra.sanusi.gmail.com"
+}
